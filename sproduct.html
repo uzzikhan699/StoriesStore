@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+    " rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+
+</head>
+
+<body>
+   
+    <section id="header">
+        <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">home</a></li>
+                <li><a class="active" href="Shop.html">Shop</a></li>
+          <!--      <li><a href="Blog.html">Blog</a></li> -->
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Cart.html" id="shopp"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div class="mobile">
+          <a href="Cart.html"><i class="fa-solid fa-bag-shopping "></i></a>
+            <i id="bar"class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="top">
+        <div class="top1">
+            <h4>Easy Access to all the Knowledge You Need</h4>
+            <p>All time best collections</p>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+
+        <div class="proo-image">
+        <img id="main-image" width="100%" src="img/cover1.jpg" alt="">
+
+        <div class="sm-image">
+        <div class="small-image">
+            <img class="s-image" width="100%" src="img/cover1.jpg" alt="">
+        </div>
+        <div class="small-image">
+            <img class="s-image" width="100%" src="img/cover3.jpg" alt="">
+        </div>
+        <div class="small-image">
+            <img class="s-image" width="100%" src="img/cover5.jpg" alt="">
+        </div>
+        <div class="small-image">
+            <img class="s-image" width="100%" src="img/cover6.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="images-details">
+        <h2>Lord Of The Rings</h2>
+        <h3>$40</h3>
+        <select>
+            <option>Part 1</option>
+            <option>Part 2</option>
+            <option>Part 3</option>
+        </select>
+        <input type="number" value="1">
+        <button>Add to Cart</button>
+        <h4>Book Discription</h4>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nostrum? Aspernatur numquam dicta placeat possimus dolores in facere laborum autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nulla minus commodi, illum sapiente obcaecati harum nihil libero autem corrupti? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem beatae quibusdam dignissimos. Beatae deserunt animi veniam repudiandae quisquam blanditiis commodi!</span>
+    </div>
+
+    </section>
+
+
+    <section id="banner" class="section-m1">
+
+        <h4>Discounts</h4>
+        <h2>Up to <span>40% Off</span> - On all Books</h2>
+        <button>Show all</button>
+    </section>
+
+    <footer class="section-p1">
+        <div class="i">
+            <img src="img/logo1.png" alt="logo">
+            <div class="fh4">
+            <h4>Contact</h4>
+            <P><strong>Address: </strong>Shop 12, Dolmen Mall, Karachi.</P>
+            <P><strong>Phone: </strong>+92 3342705534.</P>
+            <P><strong>Open Hours: </strong>Monday To Saturday, 9 to 5.</P>
+        </div>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="fb">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+            </div>
+            </div>
+        </div>
+        <div class="about">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="Account acc">
+            <h4>Payment</h4>
+            <a class="ac" href="#">Signin</a>
+            <a class="ac" href="#">Track my order</a>
+        </div>
+        <Div class="install">
+            <h4>Install App</h4>
+            <div class="py">
+            <a href="#"><i><i class="fa-brands fa-google-play"></i></i></a>
+            <a href="#"><i class="fa-brands fa-app-store-ios"></i></a>
+        </div>
+            <div class="payment">
+                <p>Secure Payment <br>Gateways</p>
+                <div class="gp">
+                <a href="#"><i><i class="fa-brands fa-cc-paypal"></i></i></a>
+                <a href="#"><i class="fa-brands fa-google-pay"></i></a>
+            </div>
+            </div>
+        </Div>
+    </footer>
+<!--
+    <script>
+        var mainimage = document.getElementById("main-image");
+        var simage = document.getElementsByClassName("s-image");
+
+        simage[0].onclick = function(){
+            mainimage.src = simage[0].src;
+        }
+        simage[1].onclick = function(){
+            mainimage.src = simage[1].src;
+        }
+        simage[2].onclick = function(){
+            mainimage.src = simage[2].src;
+        }
+        simage[3].onclick = function(){
+            mainimage.src = simage[3].src;
+        }
+
+    </script>-->
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
